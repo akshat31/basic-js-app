@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100;300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form onsubmit="calcSubmit()">
+        <div class="container">
+            <div class="calc">
+                <div class="calc-input-container">
+                    <div class="black-area"></div>
+                    <span style="padding-right: 12px;">
+                        <input value="0" class="calc-input" type="number" />
+                    </span>
+                </div>
+                <div class="calc-btns">
+                    <div class="row">
+                        <button class="btn grey-bg">
+                            AC
+                        </button>
+                        <button class="btn grey-bg">
+                            +/-
+                        </button>
+                        <button class="btn grey-bg">
+                            %
+                        </button>
+                        <button class="btn orange-bg">
+                            /
+                        </button>
+                    </div>
+                    <div class="row">
+                        <button class="btn">
+                            7
+                        </button>
+                        <button class="btn">
+                            8
+                        </button>
+                        <button class="btn">
+                            9
+                        </button>
+                        <button class="btn orange-bg">
+                            x
+                        </button>
+                    </div>
+                    <div class="row">
+                        <button class="btn">
+                            4
+                        </button>
+                        <button class="btn">
+                            5
+                        </button>
+                        <button class="btn">
+                            6
+                        </button>
+                        <button class="btn orange-bg">
+                            -
+                        </button>
+                    </div>
+                    <div class="row">
+                        <button class="btn">
+                            1
+                        </button>
+                        <button class="btn">
+                            2
+                        </button>
+                        <button class="btn">
+                            3
+                        </button>
+                        <button class="btn orange-bg">
+                            +
+                        </button>
+                    </div>
+                    <div class="row">
+                        <button class="btn num-zero">
+                            <span class="zero-align">0</span>
+                        </button>
+                        <button class="btn">
+                            .
+                        </button>
+                        <button type="submit" class="btn orange-bg">
+                            =
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
